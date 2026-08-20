@@ -1,0 +1,14 @@
+# The Moon
+
+The Moon is Earth's only natural satellite. It is the fifth largest satellite in the Solar System.
+
+## Key Facts:
+- **Average Distance from Earth:** ~384,400 km
+- **Radius:** 1,737.4 km
+- **Orbital Period:** ~27.3 days
+- **Surface Gravity:** ~1.62 m/s² (about 1/6th of Earth's gravity)
+
+## Features:
+- Cratered surface from asteroid and comet impacts
+- Extreme surface temperature variations
+- Tally locked with Earth (shows the same side)

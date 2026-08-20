@@ -1,0 +1,55 @@
+# Detailed Overview of Solar System Planets
+
+## Terrestrial (Rocky) Planets
+
+### 1. Mercury
+- **Distance from Sun:** ~57.9 million km
+- **Radius:** 2,439.7 km
+- **Orbital Period:** 88 days
+- **Key Characteristics:** Smallest planet, extreme temperatures ranging from -180°C at night to 430°C during the day, heavily cratered surface with no significant atmosphere.
+
+### 2. Venus
+- **Distance from Sun:** ~108.2 million km
+- **Radius:** 6,051.8 km
+- **Orbital Period:** 225 days
+- **Key Characteristics:** Similar size to Earth, covered in dense clouds of sulfuric acid, runaway greenhouse effect making it the hottest planet (~465°C), rotates backwards relative to most planets.
+
+### 3. Earth
+- **Distance from Sun:** ~149.6 million km
+- **Radius:** 6,371 km
+- **Orbital Period:** 365.25 days
+- **Key Characteristics:** Only known planet with liquid water oceans and life, protective atmosphere rich in nitrogen and oxygen, active plate tectonics.
+
+### 4. Mars
+- **Distance from Sun:** ~227.9 million km
+- **Radius:** 3,389.5 km
+- **Orbital Period:** 687 days
+- **Key Characteristics:** Known as the Red Planet due to iron oxide on its surface, home to Olympus Mons (largest volcano) and Valles Marineris (massive canyon system), thin carbon dioxide atmosphere.
+
+---
+
+## Gas & Ice Giants
+
+### 5. Jupiter
+- **Distance from Sun:** ~778.5 million km
+- **Radius:** 69,911 km
+- **Orbital Period:** 11.86 years
+- **Key Characteristics:** Largest planet in the solar system, gas giant mainly composed of hydrogen and helium, famous for the Great Red Spot storm, has over 90 moons including Ganymede.
+
+### 6. Saturn
+- **Distance from Sun:** ~1.43 billion km
+- **Radius:** 58,232 km
+- **Orbital Period:** 29.45 years
+- **Key Characteristics:** Famous for its stunning, complex ring system made of ice and rock particles, gas giant with low overall density (less dense than water), has major moons like Titan and Enceladus.
+
+### 7. Uranus
+- **Distance from Sun:** ~2.87 billion km
+- **Radius:** 25,362 km
+- **Orbital Period:** 84 years
+- **Key Characteristics:** Ice giant composed of water, ammonia, and methane; rotates nearly on its side (98° tilt); cold pale blue atmosphere.
+
+### 8. Neptune
+- **Distance from Sun:** ~4.50 billion km
+- **Radius:** 24,622 km
+- **Orbital Period:** 164.8 years
+- **Key Characteristics:** Farthest major planet, vivid blue ice giant with the fastest recorded winds in the solar system (up to 2,100 km/h), home to Triton, a moon with cryovolcanoes.

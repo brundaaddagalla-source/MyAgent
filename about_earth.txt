@@ -1,0 +1,15 @@
+# Planet Earth
+
+Earth is the third planet from the Sun and the only astronomical object known to harbor life.
+
+## Key Facts:
+- **Distance from Sun:** ~149.6 million km (1 AU)
+- **Radius:** 6,371 km
+- **Age:** ~4.54 billion years
+- **Atmosphere:** ~78% Nitrogen, 21% Oxygen, 1% other gases
+- **Surface:** 71% Water, 29% Land
+
+## Features:
+- Liquid water oceans
+- Protective atmosphere and magnetic field
+- Diverse climate zones and rich biodiversity
