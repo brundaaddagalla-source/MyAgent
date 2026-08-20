@@ -4,6 +4,7 @@ from .tools import (
     write_file,
     append_file,
     rename_file,
+    list_txt_files,
     view_file,
     delete_file,
     push_to_github,
@@ -28,7 +29,10 @@ root_agent = Agent(
     When the user asks to rename or move a file,
     use the rename_file tool.
 
-    When the user asks to view a file,
+    When the user asks to view, find, or list all the .txt files in a folder or project,
+    use the list_txt_files tool.
+
+    When the user asks to view or read the content of a specific file,
     use the view_file tool.
 
     When the user asks to delete a file,
@@ -43,6 +47,7 @@ root_agent = Agent(
         write_file,
         append_file,
         rename_file,
+        list_txt_files,
         view_file,
         delete_file,
         push_to_github,

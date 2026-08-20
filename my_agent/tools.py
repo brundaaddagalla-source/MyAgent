@@ -75,6 +75,40 @@ def rename_file(old_path: str, new_path: str) -> str:
         return f"Error renaming '{old_path}' to '{new_path}': {str(e)}"
 
 
+def list_txt_files(directory: str = ".") -> str:
+    """Finds and lists all .txt files in a specified folder with their file sizes and line counts.
+
+    Args:
+        directory: The directory path to search for .txt files. Default is '.' (current folder).
+
+    Returns:
+        A formatted list of all .txt files found in the folder.
+    """
+    try:
+        path = Path(directory).resolve()
+        if not path.exists():
+            return f"Error: Directory '{directory}' does not exist."
+        if not path.is_dir():
+            return f"Error: '{directory}' is not a directory."
+
+        txt_files = sorted(path.glob("*.txt"))
+        if not txt_files:
+            return f"No .txt files found in '{directory}'."
+
+        lines = [f"Found {len(txt_files)} .txt file(s) in '{directory}':"]
+        for f in txt_files:
+            size_kb = f.stat().st_size / 1024
+            try:
+                line_count = len(f.read_text(encoding="utf-8").splitlines())
+                lines.append(f"- {f.name} ({size_kb:.2f} KB, {line_count} lines)")
+            except Exception:
+                lines.append(f"- {f.name} ({size_kb:.2f} KB)")
+
+        return "\n".join(lines)
+    except Exception as e:
+        return f"Error listing .txt files in '{directory}': {str(e)}"
+
+
 def view_file(filepath: str, max_chars: int = 10000) -> str:
     """Reads and returns the content of a file.
 

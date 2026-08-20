@@ -8,6 +8,7 @@ An intelligent student assistant agent built using the **Google Agent Developmen
 
 - **Document Analysis & Q&A**: Read and extract facts from study documents (e.g., `earth.txt`, `moon.txt`, `sun.txt`).
 - **File Management**:
+  - Discover and view all `.txt` documents in any folder with `list_txt_files`.
   - Create and overwrite files with `write_file`.
   - Append notes or content with `append_file`.
   - Rename or relocate files with `rename_file`.
@@ -79,10 +80,11 @@ GOOGLE_API_KEY="your_actual_gemini_api_key_here"
 
 | Tool Name | Parameters | Description |
 | :--- | :--- | :--- |
+| `list_txt_files` | `directory: str` | Discovers and views all `.txt` files in a folder with sizes & line counts. |
+| `view_file` | `filepath: str, max_chars: int` | Reads and returns the content of a local file safely. |
 | `write_file` | `filename: str, content: str` | Creates or overwrites a text file with given content. |
 | `append_file` | `filepath: str, content: str` | Appends text content to the end of an existing file. |
 | `rename_file` | `old_path: str, new_path: str` | Renames or moves a file to a new name/path. |
-| `view_file` | `filepath: str, max_chars: int` | Reads and returns the content of a local file safely. |
 | `delete_file` | `filepath: str` | Deletes a specified file from the disk. |
 | `push_to_github` | `repo_url: str, commit_message: str, branch: str` | Initializes Git, commits changes, and pushes repository to GitHub. |
 
@@ -103,7 +105,7 @@ Or interact via Python:
 from my_agent.agent import root_agent
 
 # Run query through the agent
-response = root_agent.run("Can you summarize the facts in earth.txt?")
+response = root_agent.run("What .txt study files do we have in the folder?")
 print(response)
 ```
 
