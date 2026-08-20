@@ -27,6 +27,7 @@ venv.bak/
 *.db
 *.sqlite
 *.sqlite3
+*.session.db
 
 # IDEs and editors
 .vscode/
